@@ -11,7 +11,7 @@ export function arraySorting(data) {
   arr.sort(function(a, b) {
     return a - b;
   });
-  return arr;
+  return arr.join(',');
 }
 
 /*
